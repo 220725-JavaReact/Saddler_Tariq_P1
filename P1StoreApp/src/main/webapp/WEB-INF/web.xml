@@ -14,5 +14,59 @@
   <url-pattern>/Menu</url-pattern>
   </servlet-mapping>
   
+  <servlet>
+  <servlet-name>LoginServlet</servlet-name>
+  <servlet-class>com.revature.servlets.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>LoginServlet</servlet-name>
+  <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>StoresServlet</servlet-name>
+  <servlet-class>com.revature.servlets.StoresServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>StoresServlet</servlet-name>
+  <url-pattern>/stores</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>ShopServlet</servlet-name>
+  <servlet-class>com.revature.servlets.ShopServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>ShopServlet</servlet-name>
+  <url-pattern>/shop</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>RegisterServlet</servlet-name>
+  <servlet-class>com.revature.servlets.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>RegisterServlet</servlet-name>
+  <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>OrderHistoryServlet</servlet-name>
+  <servlet-class>com.revature.servlets.OrderHistoryServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>OrderHistoryServlet</servlet-name>
+  <url-pattern>/orderhistory</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>CheckoutServlet</servlet-name>
+  <servlet-class>com.revature.servlets.CheckoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>CheckoutServlet</servlet-name>
+  <url-pattern>/checkout</url-pattern>
+  </servlet-mapping>
+  
   
 </web-app>
